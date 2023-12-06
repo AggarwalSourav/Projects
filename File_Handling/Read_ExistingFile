@@ -1,0 +1,10 @@
+#1st Method
+f=open("AutoFile.txt",'r')
+for x in f:
+    print(x)
+f.close()
+
+#2nd Method
+with open("DemoFile.txt",'r') as my_object:
+    content = my_object.read()
+    print(content)
